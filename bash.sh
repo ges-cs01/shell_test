@@ -1,4 +1,4 @@
-#!/bin/bas
+#!/bin/bash
 grep "java" README.txt | 
 grep -v "arquivo" | 
 cut -d ":" -f 2 | 
