@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#example of text-parsing 
 grep "java" README.txt | 
 grep -v "arquivo" | 
 cut -d ":" -f 2 | 
