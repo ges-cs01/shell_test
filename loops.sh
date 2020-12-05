@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#example of neste loop
+#example of nested loop
 for x in {a..z}; 
 do 
   for i in {1..20}; 
